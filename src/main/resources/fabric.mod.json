@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "pojiy",
+  "version": "1.1.2",
+  "name": "LuckyEgg",
+  "description": "幸运抽奖机（腐竹不给我打钱",
+  "authors": [
+    "Xihao Hua"
+  ],
+  "contact": {
+    "homepage": "https://huaxihao.eu.org",
+    "sources": ""
+  },
+  "license": "Academic Free License v3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.rit.pojiy.PojiyMod"
+    ],
+    "client": [
+      "net.rit.pojiy.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "~1.20",
+    "java": ">=17"
+  },
+  "mixins": [
+    "pojiy.mixins.json"
+  ]
+}

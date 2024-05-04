@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:diamond"
+    },
+    "1": {
+      "item": "minecraft:diamond"
+    },
+    "2": {
+      "item": "minecraft:diamond"
+    },
+    "4": {
+      "item": "minecraft:egg"
+    },
+    "7": {
+      "item": "minecraft:egg"
+    }
+  },
+  "result": {
+    "item": "pojiy:xing_yun_niu_dan",
+    "count": 4
+  }
+}
